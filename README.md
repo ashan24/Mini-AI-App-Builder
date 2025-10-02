@@ -17,22 +17,32 @@ The frontend is built with **React**, the backend with **Node.js + Express**, an
 
 ## setup instrunction
 ### 1. Clone the repository
-- git clone <your-repo-url>
-- cd mini-ai-app-builder
+```bash
+git clone https://github.com/ashan24/Mini-AI-App-Builder.git
+cd mini-ai-app-builder
+```
 
 ### 2. Setup backend
-- cd backend
-- npm install
+```bash
+cd backend
+npm install
+```
 
 #### create .env file on backed and store your openAI api key
-- OPENAI_API_KEY=your_openai_api_key_here
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+```
 #### start backend server
-- node server.js
+```bash
+node server.js
+```
 
 ### 3. setup frontend
-- cd frontend
-- npm install
-- npm start
+```bash
+cd frontend
+npm install
+npm start
+```
 
 It will launch an app in your browser and can give your app description to build an app.
 
